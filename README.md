@@ -14,8 +14,8 @@ python classifier.py --image_path <path-to-image-file>
 When training a model will be saved inside the runs folder at each 100th step. To use the trained model call the function classify inside textclassifier file
 
 ```python
-  import text_classifier
-  result = text_classifier.classify(checkpoint_dir, x_text)
+import text_classifier
+result = text_classifier.classify(checkpoint_dir, x_text)
 ```
 
 where checkpoint_dir is the directory in which the model are saved and x_text is the text to be classified. (refer usage_example.py for an example of the usage)
